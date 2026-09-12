@@ -1,4 +1,4 @@
-
+nums = [1,0,0,1,1,1]
 count = 0
 max_conv = 0
 for i in nums:
@@ -9,4 +9,3 @@ for i in nums:
         max_conv = max(max_conv, count)
         count = 0
 
-return max_conv
